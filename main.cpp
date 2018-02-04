@@ -9,13 +9,13 @@ using namespace std;
 
  Familytree James;
 
- Familytree George = {"Tony", "Father"};
+ Familytree Blake = {"Ron", "Father"};
 
- Familytree Jordan = {"Esther", "Mother"};
+ Familytree Jordan = {"June", "Mother"};
 
- Familytree Stephen = {"Caleb", "Son"};
+ Familytree Stephen = {"Tron", "Son"};
 
- Familytree Paul = {"Josue", "Son"};
+ Familytree Paul = {"Jake", "Son"};
 
  vector <Familytree> Slide;
 
