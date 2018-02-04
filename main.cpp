@@ -19,7 +19,7 @@ using namespace std;
 
  vector <Familytree> Slide;
 
- Slide.push_back(George);
+ Slide.push_back(Blake);
  Slide.push_back(Jordan);
  Slide.push_back(Stephen);
  Slide.push_back(Paul);
