@@ -4,8 +4,7 @@
 
 using namespace std;
 
-	int main()
-	{
+	int main() {
 
  Familytree James;
 
@@ -26,5 +25,7 @@ using namespace std;
 
 for (int x = 0; x < Slide.size(); x++){
 
- cout << Slide[x].getName()<< " "<< Slide[x].getRelation()<<endl;
+ cout << Slide[x].getName () << " " << Slide[x].getRelation () <<endl;
+}
+
 }

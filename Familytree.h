@@ -1,25 +1,30 @@
 #ifndef Familytree_h
 #define Familytree_h
 #include <string>
+using namespace std;
 	
 class Familytree {
 		
-	public:
+public:
 
- Familytree (std::string firstName, std::string Fam);
+Familytree (); 
 
- void setName (std::string firstName);
+Familytree (string firstName, string Fam);
 
- std::string getName ();
+void setName (string firstName);
 
- void setRelation (std::string Fam);
+string getName ();
 
- std::string getRelation ();
+void setRelation (string Fam);
 
-	private:
+string getRelation ();
 
-	std::string username;
-	std::string relation;
+
+private:
+
+string username;
+
+string relation;
 
 };
 #endif

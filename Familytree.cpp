@@ -1,30 +1,35 @@
 #include "Familytree.h"
-
+#include <string>
+using namespace std;
 	
 Familytree::Familytree () {
 	username = " ";
 	relation = " ";
 }
 
- Familytree::Familytree (std::string firstName, std::string Fam) {
+Familytree::Familytree (string firstName, string Fam) {
 
-	username = " ";
-	relation = " ";
+	username = firstName;
+	relation = Fam;
 }
 
- void Familytree::setName (std::string firstName) {
-	username = " ";
+
+void Familytree::setName (string firstName) {
+	username = firstName;
 }
 
- std::string Familytree::getName () {
+
+string Familytree::getName () {
 	return username;
 }
  
- void Familytree::setRelation (std::string Fam) {
+
+void Familytree::setRelation (string Fam) {
 	relation = Fam;
 }
  
- std::string Familytree::getRelation (){
+
+string Familytree::getRelation (){
 	return relation;
 }
 		
